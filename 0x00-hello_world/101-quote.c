@@ -3,11 +3,14 @@
 
 /**
  * main - Entry point
- * Return: Always 1 (success)
+ *
+ * Return: return 1 (Error)
  */
+
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful
-						\" - Dora Korpar, 2015-10-19\n",59)
+	fprintf(
+	stdeerr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"  
+	);
 		return (1);
 }
