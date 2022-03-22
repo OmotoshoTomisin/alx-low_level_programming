@@ -22,8 +22,8 @@ int _atoi(char *s)
 
 		while (s[c] >= 48 && s[c] <= 57)
 		{
-			isi = ni;
-			ni = (ni * 10) +(s[c] - '0');
+			isi = i;
+			ni = (ni * 10) + (s[c] - '0');
 			c++;
 		}
 
