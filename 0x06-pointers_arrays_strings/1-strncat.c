@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncat - concatenates two strings
  * @dest: A pointer to a character that will be changed
@@ -26,6 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 		i++;
 	}
+
 	dest[i] = '\0';
 
 	return (dest);
